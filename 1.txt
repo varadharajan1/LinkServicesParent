@@ -1,0 +1,1434 @@
+Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T14:49:05-05:00)
+Maven home: C:\apache-maven-3.5.3\bin\..
+Java version: 1.8.0_161, vendor: Oracle Corporation
+Java home: C:\Java\jdk1.8.0_161\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\apache-maven-3.5.3\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\svaradha\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\apache-maven-3.5.3\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\svaradha\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\svaradha\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\svaradha\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.pfg.portal:LinkServicesParent:pom:0.0.1: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.pfg.portal:LinkServicesWeb:war:0.0.1: (none)
+[DEBUG] Looking up lifecycle mappings for packaging war from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.pfg.portal:LinkServices:ear:0.0.1: (none)
+[DEBUG] Looking up lifecycle mappings for packaging ear from ClassRealm[plexus.core, parent: null]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] LinkServicesParent                                                 [pom]
+[INFO] LinkServicesWeb Maven Webapp                                       [war]
+[INFO] LinkServices                                                       [ear]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.pfg.portal:LinkServicesParent:pom:0.0.1
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.pfg.portal:LinkServicesWeb:war:0.0.1
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.pfg.portal:LinkServices:ear:0.0.1
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -----------------< com.pfg.portal:LinkServicesParent >------------------
+[INFO] Building LinkServicesParent 0.0.1                                  [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.pfg.portal:LinkServicesParent:0.0.1
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ LinkServicesParent ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1264655, ConflictMarker.markTime=415453, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=702835, ConflictIdSorter.topsortTime=633666, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4341507, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=40759025, DefaultDependencyCollector.transformTime=10602755}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\target\site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\target\test-classes
+[DEBUG] -- end configuration --
+[DEBUG] Skipping non-existing directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\target
+[DEBUG] Skipping non-existing directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\target\site
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ LinkServicesParent ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=203934, ConflictMarker.markTime=85678, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=130303, ConflictIdSorter.topsortTime=29898, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1195041, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=97965261, DefaultDependencyCollector.transformTime=1672076}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = com.pfg.portal:LinkServicesParent:pom:0.0.1
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/svaradha/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = pom
+[DEBUG]   (f) pomFile = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing C:\Users\svaradha\eclipse-workspace\LinkServicesParent\pom.xml to C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServicesParent\0.0.1\LinkServicesParent-0.0.1.pom
+[DEBUG] Writing tracking file C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServicesParent\0.0.1\_remote.repositories
+[DEBUG] Installing com.pfg.portal:LinkServicesParent/maven-metadata.xml to C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServicesParent\maven-metadata-local.xml
+[INFO] 
+[INFO] -------------------< com.pfg.portal:LinkServicesWeb >-------------------
+[INFO] Building LinkServicesWeb Maven Webapp 0.0.1                        [2/3]
+[INFO] --------------------------------[ war ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.pfg.portal:LinkServicesWeb:0.0.1
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.8</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.3:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.8</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-war-plugin:2.2:war (default-war)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <archiveClasses default-value="false">${archiveClasses}</archiveClasses>
+  <attachClasses default-value="false"/>
+  <cacheFile default-value="${project.build.directory}/war/work/webapp-cache.xml"/>
+  <classesClassifier default-value="classes"/>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <containerConfigXML>${maven.war.containerConfigXML}</containerConfigXML>
+  <escapeString>${maven.war.escapeString}</escapeString>
+  <escapedBackslashesInFilePath default-value="false">${maven.war.escapedBackslashesInFilePath}</escapedBackslashesInFilePath>
+  <failOnMissingWebXml default-value="true">${failOnMissingWebXml}</failOnMissingWebXml>
+  <filteringDeploymentDescriptors default-value="false">${maven.war.filteringDeploymentDescriptors}</filteringDeploymentDescriptors>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <primaryArtifact default-value="true">${primaryArtifact}</primaryArtifact>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <useCache default-value="false">${useCache}</useCache>
+  <warName default-value="${project.build.finalName}"/>
+  <warSourceDirectory default-value="${basedir}/src/main/webapp"/>
+  <warSourceIncludes default-value="**"/>
+  <webXml>${maven.war.webxml}</webXml>
+  <webappDirectory default-value="${project.build.directory}/${project.build.finalName}"/>
+  <workDirectory default-value="${project.build.directory}/war/work"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[WARNING] The POM for com.ibm.websphere.portal:wp.user.api:jar:9.0 is missing, no dependency information available
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=32576, ConflictMarker.markTime=48641, ConflictMarker.nodeCount=5, ConflictIdSorter.graphTime=29006, ConflictIdSorter.topsortTime=18742, ConflictIdSorter.conflictIdCount=4, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=271762, ConflictResolver.conflictItemCount=4, DefaultDependencyCollector.collectTime=19218832, DefaultDependencyCollector.transformTime=420808}
+[DEBUG] com.pfg.portal:LinkServicesWeb:war:0.0.1
+[DEBUG]    javax.servlet:javax.servlet-api:jar:3.1.0:provided
+[DEBUG]    javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.0:provided
+[DEBUG]    com.ibm.websphere.appserver.api:com.ibm.websphere.appserver.api.json:jar:1.0.20:provided
+[DEBUG]    com.ibm.websphere.portal:wp.user.api:jar:9.0:provided
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ LinkServicesWeb ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\maven-status
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\generated-sources\annotations
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\generated-sources
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\properties\claim_stage.properties
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\properties\claim_prod.properties
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\properties\claim_null.properties
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\properties\claim_dev.properties
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\properties
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\com\pfg\portal\ReloadUser.class
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\com\pfg\portal\ISAM.class
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\com\pfg\portal\Create.class
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\com\pfg\portal
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\com\pfg
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\com
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target
+[DEBUG] Skipping non-existing directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\site
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ LinkServicesWeb ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=350748, ConflictMarker.markTime=145921, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=195008, ConflictIdSorter.topsortTime=40162, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2639979, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=89681636, DefaultDependencyCollector.transformTime=3408858}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.pfg.portal:LinkServicesWeb:0.0.1 @ C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7072bc39
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\WINDOWS, env.USERDOMAIN_ROAMINGPROFILE=PERFORMANCE, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.PROMPT=$P$G, env.WDIR=C:\, os.name=Windows 7, env.FP_NO_HOST_CHECK=NO, sun.boot.class.path=C:\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Java\jdk1.8.0_161\jre\classes, env.COMPUTERNAME=WC-CN4PF727L, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_161-b12, env.GOPATH=C:\Go\work, env.HOMEPATH=\Users\svaradha, user.name=svaradha, maven.build.version=Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T14:49:05-05:00), env.WINDOWS_TRACING_FLAGS=3, env.PATH=C:\Program Files\Sierra Wireless Inc\Skylight\;C:\Program Files\Sierra Wireless Inc\Common\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.WINDIR=C:\WINDOWS, sun.boot.library.path=C:\Java\jdk1.8.0_161\jre\bin, classworlds.conf=C:\apache-maven-3.5.3\bin\..\bin\m2.conf, java.version=1.8.0_161, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel, user.timezone=, env.TEMP=C:\Users\svaradha\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.WINDOWS_TRACING_LOGFILE=C:\BVTBin\Tests\installpackage\csilogfile.log, java.endorsed.dirs=C:\Java\jdk1.8.0_161\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\apache-maven-3.5.3\bin\../conf, env.JAVACMD=C:\Java\jdk1.8.0_161\bin\java.exe, java.class.version=52.0, user.country=US, java.home=C:\Java\jdk1.8.0_161\jre, env.APPDATA=C:\Users\svaradha\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.CATALINA_HOME=C:\apache-tomcat-8.5.29, env.OS=Windows_NT, os.version=6.1, env.=::=::\, path.separator=;, java.vm.version=25.161-b12, user.variant=, env.USERPROFILE=C:\Users\svaradha, env.GOROOT=C:\Go\, env.JAVA_HOME=C:\Java\jdk1.8.0_161, env.SNC_LIB=C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\svaradha\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, env.SNC_LIB_64=C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, user.home=C:\Users\svaradha, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000001, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, library.jansi.path=C:\apache-maven-3.5.3\bin\..\lib\jansi-native, java.library.path=C:\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Sierra Wireless Inc\Skylight\;C:\Program Files\Sierra Wireless Inc\Common\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin;., env.NUMBER_OF_PROCESSORS=4, java.vendor.url=http://java.oracle.com/, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.USERDNSDOMAIN=PERFORMANCE.PFGC.COM, env.PSMODULEPATH=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files\Microsoft Security Client\MpProvider\, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.MAVEN_CMD_LINE_ARGS=-X clean install, java.vm.vendor=Oracle Corporation, maven.home=C:\apache-maven-3.5.3\bin\.., java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X clean install, java.class.path=C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar, env.PROGRAMW6432=C:\Program Files, maven.version=3.5.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\RICWC2K8DC1, java.vm.specification.version=1.8, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\svaradha\AppData\Local\Temp\, env.UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77, env.PROCESSOR_REVISION=3d04, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.MAVEN_HOME=C:\apache-maven-3.5.3\bin\.., env.LOCALAPPDATA=C:\Users\svaradha\AppData\Local, env.SSF_LIBRARY_PATH_64=C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, line.separator=
+, env.CLASSWORLDS_JAR="C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar", java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.JRE_HOME=C:\Java\jre1.8.0_161, env.ERROR_CODE=0, env.USERNAME=svaradha, sun.stderr.encoding=cp437, file.encoding=Cp1252, env.USERDOMAIN=PERFORMANCE, java.specification.version=1.8, env.=C:=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.SSF_LIBRARY_PATH=C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, env.PROCESSOR_LEVEL=6, env.MAVEN_PROJECTBASEDIR=C:\Users\svaradha\eclipse-workspace\LinkServicesParent}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 4 resources
+[DEBUG] file claim_dev.properties has a filtered file extension
+[DEBUG] copy C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\resources\properties\claim_dev.properties to C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\properties\claim_dev.properties
+[DEBUG] file claim_null.properties has a filtered file extension
+[DEBUG] copy C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\resources\properties\claim_null.properties to C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\properties\claim_null.properties
+[DEBUG] file claim_prod.properties has a filtered file extension
+[DEBUG] copy C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\resources\properties\claim_prod.properties to C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\properties\claim_prod.properties
+[DEBUG] file claim_stage.properties has a filtered file extension
+[DEBUG] copy C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\resources\properties\claim_stage.properties to C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes\properties\claim_stage.properties
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ LinkServicesWeb ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=523444, ConflictMarker.markTime=290951, ConflictMarker.nodeCount=143, ConflictIdSorter.graphTime=237401, ConflictIdSorter.topsortTime=53996, ConflictIdSorter.conflictIdCount=44, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3136648, ConflictResolver.conflictItemCount=73, DefaultDependencyCollector.collectTime=269191722, DefaultDependencyCollector.transformTime=4267877}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.5:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.5
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.3:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.3, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.3:compile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb
+[DEBUG]   (f) buildDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target
+[DEBUG]   (f) classpathElements = [C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes, C:\Users\svaradha\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar, C:\Users\svaradha\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.0\javax.servlet.jsp-api-2.3.0.jar, C:\Users\svaradha\.m2\repository\com\ibm\websphere\appserver\api\com.ibm.websphere.appserver.api.json\1.0.20\com.ibm.websphere.appserver.api.json-1.0.20.jar, C:\Users\svaradha\.m2\repository\com\ibm\websphere\portal\wp.user.api\9.0\wp.user.api-9.0.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.3:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+[DEBUG]   (f) project = MavenProject: com.pfg.portal:LinkServicesWeb:0.0.1 @ C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\pom.xml
+[DEBUG]   (f) projectArtifact = com.pfg.portal:LinkServicesWeb:war:0.0.1
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7072bc39
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java]
+[DEBUG] Classpath: [C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+ C:\Users\svaradha\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar
+ C:\Users\svaradha\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.0\javax.servlet.jsp-api-2.3.0.jar
+ C:\Users\svaradha\.m2\repository\com\ibm\websphere\appserver\api\com.ibm.websphere.appserver.api.json\1.0.20\com.ibm.websphere.appserver.api.json-1.0.20.jar
+ C:\Users\svaradha\.m2\repository\com\ibm\websphere\portal\wp.user.api\9.0\wp.user.api-9.0.jar]
+[DEBUG] Output directory: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+[DEBUG] Adding C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\generated-sources\annotations to compile source roots:
+  C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java
+[DEBUG] New compile source roots:
+  C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java
+  C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\generated-sources\annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java\com\pfg\portal\ReloadUser.java
+[DEBUG] Stale source detected: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java\com\pfg\portal\WCM.java
+[DEBUG] Stale source detected: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java\com\pfg\portal\Claim.java
+[DEBUG] Stale source detected: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java\com\pfg\portal\Create.java
+[DEBUG] Stale source detected: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java\com\pfg\portal\ISAM.java
+[DEBUG] Stale source detected: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java\com\pfg\portal\Utils.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+[DEBUG]  C:\Users\svaradha\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar
+[DEBUG]  C:\Users\svaradha\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.0\javax.servlet.jsp-api-2.3.0.jar
+[DEBUG]  C:\Users\svaradha\.m2\repository\com\ibm\websphere\appserver\api\com.ibm.websphere.appserver.api.json\1.0.20\com.ibm.websphere.appserver.api.json-1.0.20.jar
+[DEBUG]  C:\Users\svaradha\.m2\repository\com\ibm\websphere\portal\wp.user.api\9.0\wp.user.api-9.0.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java
+[DEBUG]  C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\generated-sources\annotations
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes -classpath C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes;C:\Users\svaradha\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\svaradha\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.0\javax.servlet.jsp-api-2.3.0.jar;C:\Users\svaradha\.m2\repository\com\ibm\websphere\appserver\api\com.ibm.websphere.appserver.api.json\1.0.20\com.ibm.websphere.appserver.api.json-1.0.20.jar;C:\Users\svaradha\.m2\repository\com\ibm\websphere\portal\wp.user.api\9.0\wp.user.api-9.0.jar; -sourcepath C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\java;C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\generated-sources\annotations; -s C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\generated-sources\annotations -g -nowarn -target 1.8 -source 1.8
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 6 source files to C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ LinkServicesWeb ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.pfg.portal:LinkServicesWeb:0.0.1 @ C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7072bc39
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\WINDOWS, env.USERDOMAIN_ROAMINGPROFILE=PERFORMANCE, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.PROMPT=$P$G, env.WDIR=C:\, os.name=Windows 7, env.FP_NO_HOST_CHECK=NO, sun.boot.class.path=C:\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Java\jdk1.8.0_161\jre\classes, env.COMPUTERNAME=WC-CN4PF727L, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_161-b12, env.GOPATH=C:\Go\work, env.HOMEPATH=\Users\svaradha, user.name=svaradha, maven.build.version=Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T14:49:05-05:00), env.WINDOWS_TRACING_FLAGS=3, env.PATH=C:\Program Files\Sierra Wireless Inc\Skylight\;C:\Program Files\Sierra Wireless Inc\Common\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.WINDIR=C:\WINDOWS, sun.boot.library.path=C:\Java\jdk1.8.0_161\jre\bin, classworlds.conf=C:\apache-maven-3.5.3\bin\..\bin\m2.conf, java.version=1.8.0_161, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel, user.timezone=, env.TEMP=C:\Users\svaradha\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.WINDOWS_TRACING_LOGFILE=C:\BVTBin\Tests\installpackage\csilogfile.log, java.endorsed.dirs=C:\Java\jdk1.8.0_161\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\apache-maven-3.5.3\bin\../conf, env.JAVACMD=C:\Java\jdk1.8.0_161\bin\java.exe, java.class.version=52.0, user.country=US, java.home=C:\Java\jdk1.8.0_161\jre, env.APPDATA=C:\Users\svaradha\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.CATALINA_HOME=C:\apache-tomcat-8.5.29, env.OS=Windows_NT, os.version=6.1, env.=::=::\, path.separator=;, java.vm.version=25.161-b12, user.variant=, env.USERPROFILE=C:\Users\svaradha, env.GOROOT=C:\Go\, env.JAVA_HOME=C:\Java\jdk1.8.0_161, env.SNC_LIB=C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\svaradha\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, env.SNC_LIB_64=C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, user.home=C:\Users\svaradha, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000001, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, library.jansi.path=C:\apache-maven-3.5.3\bin\..\lib\jansi-native, java.library.path=C:\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Sierra Wireless Inc\Skylight\;C:\Program Files\Sierra Wireless Inc\Common\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin;., env.NUMBER_OF_PROCESSORS=4, java.vendor.url=http://java.oracle.com/, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.USERDNSDOMAIN=PERFORMANCE.PFGC.COM, env.PSMODULEPATH=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files\Microsoft Security Client\MpProvider\, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.MAVEN_CMD_LINE_ARGS=-X clean install, java.vm.vendor=Oracle Corporation, maven.home=C:\apache-maven-3.5.3\bin\.., java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X clean install, java.class.path=C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar, env.PROGRAMW6432=C:\Program Files, maven.version=3.5.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\RICWC2K8DC1, java.vm.specification.version=1.8, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\svaradha\AppData\Local\Temp\, env.UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77, env.PROCESSOR_REVISION=3d04, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.MAVEN_HOME=C:\apache-maven-3.5.3\bin\.., env.LOCALAPPDATA=C:\Users\svaradha\AppData\Local, env.SSF_LIBRARY_PATH_64=C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, line.separator=
+, env.CLASSWORLDS_JAR="C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar", java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.JRE_HOME=C:\Java\jre1.8.0_161, env.ERROR_CODE=0, env.USERNAME=svaradha, sun.stderr.encoding=cp437, file.encoding=Cp1252, env.USERDOMAIN=PERFORMANCE, java.specification.version=1.8, env.=C:=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.SSF_LIBRARY_PATH=C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, env.PROCESSOR_LEVEL=6, env.MAVEN_PROJECTBASEDIR=C:\Users\svaradha\eclipse-workspace\LinkServicesParent}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\test\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\test\resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ LinkServicesWeb ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.3:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.3, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.3:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb
+[DEBUG]   (f) buildDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target
+[DEBUG]   (f) classpathElements = [C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\test-classes, C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes, C:\Users\svaradha\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar, C:\Users\svaradha\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.0\javax.servlet.jsp-api-2.3.0.jar, C:\Users\svaradha\.m2\repository\com\ibm\websphere\appserver\api\com.ibm.websphere.appserver.api.json\1.0.20\com.ibm.websphere.appserver.api.json-1.0.20.jar, C:\Users\svaradha\.m2\repository\com\ibm\websphere\portal\wp.user.api\9.0\wp.user.api-9.0.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\test\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\generated-test-sources\test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.3:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\test-classes
+[DEBUG]   (f) project = MavenProject: com.pfg.portal:LinkServicesWeb:0.0.1 @ C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7072bc39
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ LinkServicesWeb ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=579671, ConflictMarker.markTime=141460, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=391356, ConflictIdSorter.topsortTime=41055, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1403437, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=262174092, DefaultDependencyCollector.transformTime=2584198}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.12.4:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.8:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.12.4
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.8
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test' with basic configurator -->
+[DEBUG]   (s) basedir = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///C:/Users/svaradha/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.12.4:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.0.9:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.12.4:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:3.0.8:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.0.9:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.0.9:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.0.9:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.0.9:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.0.9:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.0.9:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.0.9:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.0.9:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.0.9:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.0.9:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.0.9:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {javax.servlet:javax.servlet-api=javax.servlet:javax.servlet-api:jar:3.1.0:provided, javax.servlet.jsp:javax.servlet.jsp-api=javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.0:provided, com.ibm.websphere.appserver.api:com.ibm.websphere.appserver.api.json=com.ibm.websphere.appserver.api:com.ibm.websphere.appserver.api.json:jar:1.0.20:provided, com.ibm.websphere.portal:wp.user.api=com.ibm.websphere.portal:wp.user.api:jar:9.0:provided}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\surefire-reports
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) testClassesDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\test\java
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb
+[DEBUG]   (s) project = MavenProject: com.pfg.portal:LinkServicesWeb:0.0.1 @ C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@7072bc39
+[DEBUG] -- end configuration --
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ LinkServicesWeb ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=627865, ConflictMarker.markTime=136551, ConflictMarker.nodeCount=95, ConflictIdSorter.graphTime=225799, ConflictIdSorter.topsortTime=59797, ConflictIdSorter.conflictIdCount=30, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1444492, ConflictResolver.conflictItemCount=87, DefaultDependencyCollector.collectTime=54206139, DefaultDependencyCollector.transformTime=2546267}
+[DEBUG] org.apache.maven.plugins:maven-war-plugin:jar:2.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-io:jar:2.0.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    com.thoughtworks.xstream:xstream:jar:1.3.1:compile
+[DEBUG]       xpp3:xpp3_min:jar:1.1.4c:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0-beta-2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-war-plugin:jar:2.2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: com.thoughtworks.xstream:xstream:jar:1.3.1
+[DEBUG]   Included: xpp3:xpp3_min:jar:1.1.4c
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0-beta-2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-war-plugin:2.2:war from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-war-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-war-plugin:2.2:war' with basic configurator -->
+[DEBUG]   (s) archiveClasses = false
+[DEBUG]   (s) attachClasses = false
+[DEBUG]   (s) cacheFile = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\war\work\webapp-cache.xml
+[DEBUG]   (s) classesClassifier = classes
+[DEBUG]   (s) classesDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\classes
+[DEBUG]   (f) escapedBackslashesInFilePath = false
+[DEBUG]   (s) failOnMissingWebXml = true
+[DEBUG]   (f) filteringDeploymentDescriptors = false
+[DEBUG]   (s) outputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target
+[DEBUG]   (s) primaryArtifact = true
+[DEBUG]   (s) project = MavenProject: com.pfg.portal:LinkServicesWeb:0.0.1 @ C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7072bc39
+[DEBUG]   (s) useCache = false
+[DEBUG]   (s) warName = LinkServicesWeb
+[DEBUG]   (s) warSourceDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\webapp
+[DEBUG]   (s) warSourceIncludes = **
+[DEBUG]   (s) webappDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\LinkServicesWeb
+[DEBUG]   (s) workDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\war\work
+[DEBUG] -- end configuration --
+[INFO] Packaging webapp
+[INFO] Assembling webapp [LinkServicesWeb] in [C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\LinkServicesWeb]
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\WINDOWS, env.USERDOMAIN_ROAMINGPROFILE=PERFORMANCE, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.PROMPT=$P$G, env.WDIR=C:\, os.name=Windows 7, env.FP_NO_HOST_CHECK=NO, sun.boot.class.path=C:\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Java\jdk1.8.0_161\jre\classes, env.COMPUTERNAME=WC-CN4PF727L, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_161-b12, env.GOPATH=C:\Go\work, env.HOMEPATH=\Users\svaradha, user.name=svaradha, maven.build.version=Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T14:49:05-05:00), env.WINDOWS_TRACING_FLAGS=3, env.PATH=C:\Program Files\Sierra Wireless Inc\Skylight\;C:\Program Files\Sierra Wireless Inc\Common\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.WINDIR=C:\WINDOWS, sun.boot.library.path=C:\Java\jdk1.8.0_161\jre\bin, classworlds.conf=C:\apache-maven-3.5.3\bin\..\bin\m2.conf, java.version=1.8.0_161, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel, user.timezone=, env.TEMP=C:\Users\svaradha\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.WINDOWS_TRACING_LOGFILE=C:\BVTBin\Tests\installpackage\csilogfile.log, java.endorsed.dirs=C:\Java\jdk1.8.0_161\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\apache-maven-3.5.3\bin\../conf, env.JAVACMD=C:\Java\jdk1.8.0_161\bin\java.exe, java.class.version=52.0, user.country=US, java.home=C:\Java\jdk1.8.0_161\jre, env.APPDATA=C:\Users\svaradha\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.CATALINA_HOME=C:\apache-tomcat-8.5.29, env.OS=Windows_NT, os.version=6.1, env.=::=::\, path.separator=;, java.vm.version=25.161-b12, user.variant=, env.USERPROFILE=C:\Users\svaradha, env.GOROOT=C:\Go\, env.JAVA_HOME=C:\Java\jdk1.8.0_161, env.SNC_LIB=C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\svaradha\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, env.SNC_LIB_64=C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, user.home=C:\Users\svaradha, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000001, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, env.NUMBER_OF_PROCESSORS=4, java.library.path=C:\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Sierra Wireless Inc\Skylight\;C:\Program Files\Sierra Wireless Inc\Common\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin;., library.jansi.path=C:\apache-maven-3.5.3\bin\..\lib\jansi-native, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.PSMODULEPATH=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files\Microsoft Security Client\MpProvider\, env.USERDNSDOMAIN=PERFORMANCE.PFGC.COM, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.MAVEN_CMD_LINE_ARGS=-X clean install, java.vm.vendor=Oracle Corporation, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=C:\apache-maven-3.5.3\bin\.., java.class.path=C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X clean install, env.PROGRAMW6432=C:\Program Files, maven.version=3.5.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\RICWC2K8DC1, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.specification.version=1.8, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.os.patch.level=Service Pack 1, sun.cpu.endian=little, env.PROCESSOR_REVISION=3d04, env.UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77, java.io.tmpdir=C:\Users\svaradha\AppData\Local\Temp\, maven.multiModuleProjectDirectory=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, env.PROGRAMDATA=C:\ProgramData, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=amd64, java.ext.dirs=C:\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, env.LOCALAPPDATA=C:\Users\svaradha\AppData\Local, env.MAVEN_HOME=C:\apache-maven-3.5.3\bin\.., user.dir=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.SSF_LIBRARY_PATH_64=C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.CLASSWORLDS_JAR="C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar", env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.JRE_HOME=C:\Java\jre1.8.0_161, env.ERROR_CODE=0, env.USERNAME=svaradha, file.encoding=Cp1252, sun.stderr.encoding=cp437, env.USERDOMAIN=PERFORMANCE, java.specification.version=1.8, env.=C:=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.SSF_LIBRARY_PATH=C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, env.MAVEN_PROJECTBASEDIR=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.PROCESSOR_LEVEL=6}
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\src\main\webapp]
+[DEBUG]  + index.jsp has been copied.
+[DEBUG]  + WEB-INF/ibm-web-ext.xml has been copied.
+[DEBUG]  + WEB-INF/properties/claim_dev.properties has been copied.
+[DEBUG]  + WEB-INF/properties/claim_null.properties has been copied.
+[DEBUG]  + WEB-INF/properties/claim_prod.properties has been copied.
+[DEBUG]  + WEB-INF/properties/claim_stage.properties has been copied.
+[DEBUG]  + WEB-INF/web.xml has been copied.
+[DEBUG] Dump of the current build pathSet content -->
+[DEBUG] index.jsp
+[DEBUG] WEB-INF/ibm-web-ext.xml
+[DEBUG] WEB-INF/properties/claim_dev.properties
+[DEBUG] WEB-INF/properties/claim_null.properties
+[DEBUG] WEB-INF/properties/claim_prod.properties
+[DEBUG] WEB-INF/properties/claim_stage.properties
+[DEBUG] WEB-INF/web.xml
+[DEBUG] -- end of dump --
+[DEBUG]  + WEB-INF/classes/com/pfg/portal/Claim.class has been copied.
+[DEBUG]  + WEB-INF/classes/com/pfg/portal/Create.class has been copied.
+[DEBUG]  + WEB-INF/classes/com/pfg/portal/ISAM.class has been copied.
+[DEBUG]  + WEB-INF/classes/com/pfg/portal/ReloadUser.class has been copied.
+[DEBUG]  + WEB-INF/classes/com/pfg/portal/Utils.class has been copied.
+[DEBUG]  + WEB-INF/classes/com/pfg/portal/WCM$1.class has been copied.
+[DEBUG]  + WEB-INF/classes/com/pfg/portal/WCM.class has been copied.
+[DEBUG]  + WEB-INF/classes/properties/claim_dev.properties has been copied.
+[DEBUG]  + WEB-INF/classes/properties/claim_null.properties has been copied.
+[DEBUG]  + WEB-INF/classes/properties/claim_prod.properties has been copied.
+[DEBUG]  + WEB-INF/classes/properties/claim_stage.properties has been copied.
+[INFO] Webapp assembled in [217 msecs]
+[DEBUG] Excluding [] from the generated webapp archive.
+[DEBUG] Including [**] in the generated webapp archive.
+[INFO] Building war: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\LinkServicesWeb.war
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory WEB-INF/
+[DEBUG] adding directory WEB-INF/classes/
+[DEBUG] adding directory WEB-INF/classes/com/
+[DEBUG] adding directory WEB-INF/classes/com/pfg/
+[DEBUG] adding directory WEB-INF/classes/com/pfg/portal/
+[DEBUG] adding directory WEB-INF/classes/properties/
+[DEBUG] adding directory WEB-INF/properties/
+[DEBUG] adding entry index.jsp
+[DEBUG] adding entry WEB-INF/classes/com/pfg/portal/Claim.class
+[DEBUG] adding entry WEB-INF/classes/com/pfg/portal/Create.class
+[DEBUG] adding entry WEB-INF/classes/com/pfg/portal/ISAM.class
+[DEBUG] adding entry WEB-INF/classes/com/pfg/portal/ReloadUser.class
+[DEBUG] adding entry WEB-INF/classes/com/pfg/portal/Utils.class
+[DEBUG] adding entry WEB-INF/classes/com/pfg/portal/WCM$1.class
+[DEBUG] adding entry WEB-INF/classes/com/pfg/portal/WCM.class
+[DEBUG] adding entry WEB-INF/classes/properties/claim_dev.properties
+[DEBUG] adding entry WEB-INF/classes/properties/claim_null.properties
+[DEBUG] adding entry WEB-INF/classes/properties/claim_prod.properties
+[DEBUG] adding entry WEB-INF/classes/properties/claim_stage.properties
+[DEBUG] adding entry WEB-INF/ibm-web-ext.xml
+[DEBUG] adding entry WEB-INF/properties/claim_dev.properties
+[DEBUG] adding entry WEB-INF/properties/claim_null.properties
+[DEBUG] adding entry WEB-INF/properties/claim_prod.properties
+[DEBUG] adding entry WEB-INF/properties/claim_stage.properties
+[DEBUG] adding entry WEB-INF/web.xml
+[INFO] WEB-INF\web.xml already added, skipping
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/com.pfg.portal/
+[DEBUG] adding directory META-INF/maven/com.pfg.portal/LinkServicesWeb/
+[DEBUG] adding entry META-INF/maven/com.pfg.portal/LinkServicesWeb/pom.xml
+[DEBUG] adding entry META-INF/maven/com.pfg.portal/LinkServicesWeb/pom.properties
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ LinkServicesWeb ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = com.pfg.portal:LinkServicesWeb:war:0.0.1
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/svaradha/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = war
+[DEBUG]   (f) pomFile = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\target\LinkServicesWeb.war to C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServicesWeb\0.0.1\LinkServicesWeb-0.0.1.war
+[DEBUG] Writing tracking file C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServicesWeb\0.0.1\_remote.repositories
+[INFO] Installing C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServicesWeb\pom.xml to C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServicesWeb\0.0.1\LinkServicesWeb-0.0.1.pom
+[DEBUG] Writing tracking file C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServicesWeb\0.0.1\_remote.repositories
+[DEBUG] Installing com.pfg.portal:LinkServicesWeb/maven-metadata.xml to C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServicesWeb\maven-metadata-local.xml
+[INFO] 
+[INFO] --------------------< com.pfg.portal:LinkServices >---------------------
+[INFO] Building LinkServices 0.0.1                                        [3/3]
+[INFO] --------------------------------[ ear ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.pfg.portal:LinkServices:0.0.1
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-ear-plugin:2.10.1:generate-application-xml (default-generate-application-xml)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <description default-value="${project.description}"/>
+  <displayName default-value="${project.artifactId}"/>
+  <encoding default-value="UTF-8"/>
+  <generateApplicationXml default-value="true"/>
+  <generateModuleId default-value="false"/>
+  <generatedDescriptorLocation default-value="${project.build.directory}"/>
+  <includeLibInApplicationXml default-value="false"/>
+  <libraryDirectoryMode default-value="DEFAULT"/>
+  <modules>
+    <webModule>
+      <groupId>com.pfg.portal</groupId>
+      <artifactId>LinkServicesWeb</artifactId>
+      <contextRoot>/wps/LinkServices</contextRoot>
+    </webModule>
+  </modules>
+  <project default-value="${project}"/>
+  <tempFolder default-value="${project.build.directory}"/>
+  <version default-value="1.3">7</version>
+  <workDirectory default-value="${project.build.directory}/${project.build.finalName}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-ear-plugin:2.10.1:ear (default-ear)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <duplicateArtifactsBreakTheBuild default-value="false">${maven.ear.duplicateArtifactsBreakTheBuild}</duplicateArtifactsBreakTheBuild>
+  <earSourceDirectory default-value="${basedir}/src/main/application"/>
+  <earSourceIncludes default-value="**"/>
+  <encoding default-value="UTF-8"/>
+  <escapeString>${maven.ear.escapeString}</escapeString>
+  <escapedBackslashesInFilePath default-value="false">${maven.ear.escapedBackslashesInFilePath}</escapedBackslashesInFilePath>
+  <filtering default-value="false"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <generatedDescriptorLocation default-value="${project.build.directory}"/>
+  <includeLibInApplicationXml default-value="false"/>
+  <modules>
+    <webModule>
+      <groupId>com.pfg.portal</groupId>
+      <artifactId>LinkServicesWeb</artifactId>
+      <contextRoot>/wps/LinkServices</contextRoot>
+    </webModule>
+  </modules>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skinnyWars default-value="false">${maven.ear.skinnyWars}</skinnyWars>
+  <skipClassPathModification default-value="false"/>
+  <tempFolder default-value="${project.build.directory}"/>
+  <useJvmChmod default-value="true">${maven.ear.useJvmChmod}</useJvmChmod>
+  <version default-value="1.3">7</version>
+  <workDirectory default-value="${project.build.directory}/${project.build.finalName}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=41054, ConflictMarker.markTime=28114, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=17403, ConflictIdSorter.topsortTime=12049, ConflictIdSorter.conflictIdCount=1, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=62028, ConflictResolver.conflictItemCount=1, DefaultDependencyCollector.collectTime=588149, DefaultDependencyCollector.transformTime=175374}
+[DEBUG] com.pfg.portal:LinkServices:ear:0.0.1
+[DEBUG]    com.pfg.portal:LinkServicesWeb:war:0.0.1:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ LinkServices ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\maven-archiver\pom.properties
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\maven-archiver
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1.ear
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1\META-INF\application.xml
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1\META-INF
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1\LinkServicesWeb-0.0.1.war
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1
+[INFO] Deleting file C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\application.xml
+[INFO] Deleting directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target
+[DEBUG] Skipping non-existing directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\site
+[INFO] 
+[INFO] --- maven-ear-plugin:2.10.1:generate-application-xml (default-generate-application-xml) @ LinkServices ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2579736, ConflictMarker.markTime=153061, ConflictMarker.nodeCount=106, ConflictIdSorter.graphTime=107099, ConflictIdSorter.topsortTime=85233, ConflictIdSorter.conflictIdCount=41, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3869381, ConflictResolver.conflictItemCount=97, DefaultDependencyCollector.collectTime=83020554, DefaultDependencyCollector.transformTime=6852521}
+[DEBUG] org.apache.maven.plugins:maven-ear-plugin:jar:2.10.1:
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.6:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.10.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.6:compile
+[DEBUG]          commons-io:commons-io:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.22:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.3:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.22:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-ear-plugin:2.10.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-ear-plugin:2.10.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-ear-plugin:2.10.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-ear-plugin:jar:2.10.1
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.10.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.6
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.22
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.22
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-ear-plugin:2.10.1:generate-application-xml from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-ear-plugin:2.10.1, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-ear-plugin:2.10.1:generate-application-xml' with basic configurator -->
+[DEBUG]   (f) description = LinkServices EAR
+[DEBUG]   (f) displayName = LinkServices
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) generateApplicationXml = true
+[DEBUG]   (f) generateModuleId = false
+[DEBUG]   (f) generatedDescriptorLocation = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target
+[DEBUG]   (f) includeLibInApplicationXml = false
+[DEBUG]   (f) libraryDirectoryMode = DEFAULT
+[DEBUG]   (f) groupId = com.pfg.portal
+[DEBUG]   (f) artifactId = LinkServicesWeb
+[DEBUG]   (f) contextRoot = /wps/LinkServices
+[DEBUG]   (f) modules = [war:com.pfg.portal:LinkServicesWeb]
+[DEBUG]   (f) project = MavenProject: com.pfg.portal:LinkServices:0.0.1 @ C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\pom.xml
+[DEBUG]   (f) tempFolder = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target
+[DEBUG]   (f) version = 7
+[DEBUG]   (f) workDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1
+[DEBUG] -- end configuration --
+[DEBUG] Resolving artifact type mappings ...
+[DEBUG] Initializing JBoss configuration if necessary ...
+[DEBUG] Initializing ear execution context
+[DEBUG] Resolving ear modules ...
+[DEBUG] Resolving ear module[war:com.pfg.portal:LinkServicesWeb]
+[INFO] Generating application.xml
+[DEBUG] Generation of jboss-app.xml is disabled
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ LinkServices ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.pfg.portal:LinkServices:0.0.1 @ C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7072bc39
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\WINDOWS, env.USERDOMAIN_ROAMINGPROFILE=PERFORMANCE, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.PROMPT=$P$G, env.WDIR=C:\, os.name=Windows 7, env.FP_NO_HOST_CHECK=NO, sun.boot.class.path=C:\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Java\jdk1.8.0_161\jre\classes, env.COMPUTERNAME=WC-CN4PF727L, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_161-b12, env.GOPATH=C:\Go\work, env.HOMEPATH=\Users\svaradha, user.name=svaradha, maven.build.version=Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T14:49:05-05:00), env.WINDOWS_TRACING_FLAGS=3, env.PATH=C:\Program Files\Sierra Wireless Inc\Skylight\;C:\Program Files\Sierra Wireless Inc\Common\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.WINDIR=C:\WINDOWS, sun.boot.library.path=C:\Java\jdk1.8.0_161\jre\bin, classworlds.conf=C:\apache-maven-3.5.3\bin\..\bin\m2.conf, java.version=1.8.0_161, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel, user.timezone=, env.TEMP=C:\Users\svaradha\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.WINDOWS_TRACING_LOGFILE=C:\BVTBin\Tests\installpackage\csilogfile.log, java.endorsed.dirs=C:\Java\jdk1.8.0_161\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\apache-maven-3.5.3\bin\../conf, env.JAVACMD=C:\Java\jdk1.8.0_161\bin\java.exe, java.class.version=52.0, user.country=US, java.home=C:\Java\jdk1.8.0_161\jre, env.APPDATA=C:\Users\svaradha\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.CATALINA_HOME=C:\apache-tomcat-8.5.29, env.OS=Windows_NT, os.version=6.1, env.=::=::\, path.separator=;, java.vm.version=25.161-b12, user.variant=, env.USERPROFILE=C:\Users\svaradha, env.GOROOT=C:\Go\, env.JAVA_HOME=C:\Java\jdk1.8.0_161, env.SNC_LIB=C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\svaradha\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, env.SNC_LIB_64=C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, user.home=C:\Users\svaradha, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000001, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, library.jansi.path=C:\apache-maven-3.5.3\bin\..\lib\jansi-native, java.library.path=C:\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Sierra Wireless Inc\Skylight\;C:\Program Files\Sierra Wireless Inc\Common\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Go\bin;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin;., env.NUMBER_OF_PROCESSORS=4, java.vendor.url=http://java.oracle.com/, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.USERDNSDOMAIN=PERFORMANCE.PFGC.COM, env.PSMODULEPATH=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files\Microsoft Security Client\MpProvider\, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.MAVEN_CMD_LINE_ARGS=-X clean install, java.vm.vendor=Oracle Corporation, maven.home=C:\apache-maven-3.5.3\bin\.., java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X clean install, java.class.path=C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar, env.PROGRAMW6432=C:\Program Files, maven.version=3.5.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\RICWC2K8DC1, java.vm.specification.version=1.8, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\svaradha\AppData\Local\Temp\, env.UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77, env.PROCESSOR_REVISION=3d04, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.MAVEN_HOME=C:\apache-maven-3.5.3\bin\.., env.LOCALAPPDATA=C:\Users\svaradha\AppData\Local, env.SSF_LIBRARY_PATH_64=C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, line.separator=
+, env.CLASSWORLDS_JAR="C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar", java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.JRE_HOME=C:\Java\jre1.8.0_161, env.ERROR_CODE=0, env.USERNAME=svaradha, sun.stderr.encoding=cp437, file.encoding=Cp1252, env.USERDOMAIN=PERFORMANCE, java.specification.version=1.8, env.=C:=C:\Users\svaradha\eclipse-workspace\LinkServicesParent, env.SSF_LIBRARY_PATH=C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll, env.PROCESSOR_LEVEL=6, env.MAVEN_PROJECTBASEDIR=C:\Users\svaradha\eclipse-workspace\LinkServicesParent}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\src\main\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\src\main\resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-ear-plugin:2.10.1:ear (default-ear) @ LinkServices ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-ear-plugin:2.10.1:ear from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-ear-plugin:2.10.1, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-ear-plugin:2.10.1:ear' with basic configurator -->
+[DEBUG]   (f) duplicateArtifactsBreakTheBuild = false
+[DEBUG]   (f) earSourceDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\src\main\application
+[DEBUG]   (f) earSourceIncludes = **
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapedBackslashesInFilePath = false
+[DEBUG]   (f) filtering = false
+[DEBUG]   (f) finalName = LinkServices-0.0.1
+[DEBUG]   (f) generatedDescriptorLocation = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target
+[DEBUG]   (f) includeLibInApplicationXml = false
+[DEBUG]   (f) groupId = com.pfg.portal
+[DEBUG]   (f) artifactId = LinkServicesWeb
+[DEBUG]   (f) contextRoot = /wps/LinkServices
+[DEBUG]   (f) modules = [war:com.pfg.portal:LinkServicesWeb]
+[DEBUG]   (f) outputDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target
+[DEBUG]   (f) project = MavenProject: com.pfg.portal:LinkServices:0.0.1 @ C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7072bc39
+[DEBUG]   (f) skinnyWars = false
+[DEBUG]   (f) skipClassPathModification = false
+[DEBUG]   (f) tempFolder = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target
+[DEBUG]   (f) useJvmChmod = true
+[DEBUG]   (f) version = 7
+[DEBUG]   (f) workDirectory = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1
+[DEBUG] -- end configuration --
+[DEBUG] Resolving artifact type mappings ...
+[DEBUG] Initializing JBoss configuration if necessary ...
+[DEBUG] Initializing ear execution context
+[DEBUG] Resolving ear modules ...
+[DEBUG] Resolving ear module[war:com.pfg.portal:LinkServicesWeb]
+[INFO] Copying artifact [war:com.pfg.portal:LinkServicesWeb:0.0.1] to [LinkServicesWeb-0.0.1.war]
+[INFO] Copy ear sources to C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1
+[DEBUG] Jar archiver implementation [org.codehaus.plexus.archiver.jar.JarArchiver]
+[INFO] Could not find manifest file: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1\META-INF\MANIFEST.MF - Generating one
+[DEBUG] Excluding [] from the generated EAR.
+[DEBUG] Including [**] in the generated EAR.
+[INFO] Building jar: C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1.ear
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding entry LinkServicesWeb-0.0.1.war
+[DEBUG] adding entry META-INF/application.xml
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/com.pfg.portal/
+[DEBUG] adding directory META-INF/maven/com.pfg.portal/LinkServices/
+[DEBUG] adding entry META-INF/maven/com.pfg.portal/LinkServices/pom.xml
+[DEBUG] adding entry META-INF/maven/com.pfg.portal/LinkServices/pom.properties
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ LinkServices ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = com.pfg.portal:LinkServices:ear:0.0.1
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/svaradha/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = ear
+[DEBUG]   (f) pomFile = C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\target\LinkServices-0.0.1.ear to C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServices\0.0.1\LinkServices-0.0.1.ear
+[DEBUG] Writing tracking file C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServices\0.0.1\_remote.repositories
+[INFO] Installing C:\Users\svaradha\eclipse-workspace\LinkServicesParent\LinkServices\pom.xml to C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServices\0.0.1\LinkServices-0.0.1.pom
+[DEBUG] Writing tracking file C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServices\0.0.1\_remote.repositories
+[DEBUG] Installing com.pfg.portal:LinkServices/maven-metadata.xml to C:\Users\svaradha\.m2\repository\com\pfg\portal\LinkServices\maven-metadata-local.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] LinkServicesParent 0.0.1 ........................... SUCCESS [  0.459 s]
+[INFO] LinkServicesWeb Maven Webapp ....................... SUCCESS [  3.271 s]
+[INFO] LinkServices 0.0.1 ................................. SUCCESS [  1.019 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.916 s
+[INFO] Finished at: 2018-04-10T15:27:17-04:00
+[INFO] ------------------------------------------------------------------------

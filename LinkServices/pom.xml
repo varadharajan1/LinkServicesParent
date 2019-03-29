@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.pfg.portal</groupId>
+		<artifactId>LinkServicesParent</artifactId>
+		<version>0.0.1</version>
+	</parent>
+	<artifactId>LinkServices</artifactId>
+	<packaging>ear</packaging>
+	<name>LinkServices</name>
+	<description>LinkServices EAR</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.pfg.portal</groupId>
+			<artifactId>LinkServicesWeb</artifactId>
+			<version>0.0.1</version>
+			<type>war</type>
+		</dependency>
+	</dependencies>
+   
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-ear-plugin</artifactId>
+				<version>2.10.1</version>
+				<configuration>
+				   <version>7</version>
+				   <modules>
+				      <webModule>
+				         <groupId>com.pfg.portal</groupId>
+				         <artifactId>LinkServicesWeb</artifactId>
+				         <contextRoot>/wps/LinkServices</contextRoot>
+				      </webModule>
+				   </modules>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
